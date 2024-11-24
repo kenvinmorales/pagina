@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="widthdevice-width, initial-scale=1.0">
+	<title>Tipos de computadoras</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f4f4f4;
+			color: #333;
+		}
+		header img {
+			width: 1400px;
+			height: 435px;
+			display: block;
+			margin: 0 auto;
+		}
+		.images-movimiento img {
+			width: 240px;
+			height: 200px;
+			animation: mover 1s infinite alternate;
+		}
+		@keyframes mover {
+			from {
+				transform: translateY(0);
+			}
+			to {
+				transform: translateY(10px);
+			}
+		}
+		table {
+			width: 100%
+			border-collapse: collapse;
+			margin: 20px 0;
+		}
+		table th, table td {
+			border: 1px solid #ddd;
+			padding: 10px;
+			text-align: center;
+		}
+		.video {
+			text-align: center;
+			margin: 20px 0;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="imagenes/imagen-principal.jpg" width="1400" height="435" alt="TIPO DE COMPUTADORAS">
+	</header>
+	<main>
+		<h1>COMPUTADORAS</h1>
+		<p>Estos son algunos de los tipos de computadoras que existen en el mercado actual</p>
+		<p>Visita este sitio web para que puedas ver más ejemplos de computadoras:
+			<a href="https://www.diferenciador.com/tipos-de-computadoras/" target="_blank">Sitio relacionado</a>
+		</p>
+		<div class="imagenes-movimiento">
+			<h2>Algunos ejemplos de computadoras</h2>
+			<img src="imagenes/gif1.gif" width="240" height="200" alt="Computadora de escritorio">
+			<img src="imagenes/gif2.gif" width="240" height="200" alt="Laptop">
+			<img src="imagenes/gif3.gif" width="240" height="200" alt="Microcomputadora">
+			<img src="imagenes/gif4.gif" width="240" height="200" alt="Servidor">
+			<img src="imagenes/gif5.gif" width="240" height="200" alt="Macrocomputadoras">
+		</div>
+		<h2>DETALLES DE LAS COMPUTADORAS</h2>
+		<table>
+			<tr>
+				<td><img src="imagenes/detalle1.jpg" alt="PC" width="100"></td>
+				<td>Servidores, ideales para usos profesionales que requieren muchos recursos computacionales</td>
+			</tr>
+			<tr>
+				<td><img src="imagenes/detalle2.jpg" alt="Laptop" width="100"></td>
+				<td>Una computadora portátil o laptop, es un equipo personal que puede ser transportado fácilmente</td>
+			</tr>
+		</table>
+		<h2>PRODUCTOS</h2>
+		<table>
+			<tr>
+				<th>PRODUCTO</th>
+				<th>MARCA</th>
+				<th>TIPO DE COMPUTADORA</th>
+				<th>PRECIO EN EL MERCADO</th>
+			</tr>
+			<tr>
+				<th>Mac Pro (M2 Ultra)</th>
+				<th>Apple</th>
+				<th>Estación de trabajo o servidor de alta gama</th>
+				<th>Desde $6999.99</th>
+			</tr>
+			<tr>
+				<th>MacBook Pro 16-in. (M4 Max)</th>
+				<th>Apple</th>
+				<th>Laptop</th>
+				<th>Desde $2499.99</th>
+			</tr>
+		</table>
+		<div class="video">
+			<h2>Video sobre la evolución de las computadoras</h2>
+			<video width="640" height="360" controls>
+				<source src="video/video.mp4" type="video/mp4">
+			</video>
+		</div>
+	</main>
+</body>
+</html>
